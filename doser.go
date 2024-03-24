@@ -1,5 +1,4 @@
 package main
-
 import (
 	"flag"
 	"fmt"
@@ -9,7 +8,6 @@ import (
 	"sync"
 	"time"
 )
-
 var (
 	url             string
 	payload         string
@@ -96,9 +94,7 @@ func main() {
 		fmt.Println("You must specify either a GET (-g) or POST (-p) request.")
 		return
 	}
-
 	waitGroup.Add(threads)
-
 	for i := 0; i < threads; i++ {
 		if url != "" {
 			if payload != "" {
@@ -111,3 +107,94 @@ func main() {
 	waitGroup.Wait()
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// NADA es 100% seguro.
